@@ -1,8 +1,10 @@
 import React, { Component } from "react";
 
+import HomePage from "./components/homepage/hompage";
 import SideDrawer from "./components/sidedrawer/sidedrawer";
 import Navbar from "./components/Navbar/navbar";
 import Backdrop from "./components/backdrop/backdrop";
+import Grid from "@material-ui/core/Grid";
 
 class App extends Component {
   state = {
@@ -30,8 +32,12 @@ class App extends Component {
         <Navbar drawerClickHandler={this.drawerToggleClickHandler} />
         <SideDrawer show={this.state.sideDrawerOpen} />
         {backdrop}
-        <main style={{ marginTop: "150px" }}>
-          <p>This is the page content</p>
+        <main style={{ marginTop: "100px" }}>
+          <Grid container>
+            <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
+              <HomePage />
+            </Grid>
+          </Grid>
         </main>
       </div>
     );

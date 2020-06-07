@@ -1,21 +1,19 @@
 .navbar {
   position: fixed;
+  display: flex;
   top: 0;
   left: 0;
   width: 100%;
   background-color: white;
   height: 100px;
-  align-content: center;
-}
-.spacer {
-  flex: 1;
+  justify-content: center;
 }
 
 .navbar_navigation {
-  position: absolute;
   display: flex;
   height: 100%;
   align-items: center;
+  text-align: center;
   padding: 0 1rem;
 }
 
@@ -32,8 +30,8 @@
   margin: 20px;
   padding: 0;
   display: flex;
-  align-items: center;
 }
+
 .navbar_navigation_item li {
   padding: 0 1rem;
 }
@@ -51,14 +49,7 @@
   color: #89cff0;
 }
 
-@media (max-width: 768px) {
-  .navbar_navigation_item {
-    display: none;
-  }
-}
-
-@media (min-width: 769px) {
-  .navbar_togglebutton {
-    display: none;
-  }
+.navbar_togglebutton {
+  position: relative;
+  justify-content: left;
 }
