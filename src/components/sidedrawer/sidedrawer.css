@@ -38,3 +38,9 @@
 .side-drawer a:active {
   color: #89cff0;
 }
+
+@media (min-width: 769px) {
+  .side-drawer {
+    display: none;
+  }
+}

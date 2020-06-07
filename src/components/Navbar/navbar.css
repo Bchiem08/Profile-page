@@ -5,12 +5,14 @@
   width: 100%;
   background-color: white;
   height: 100px;
+  align-content: center;
 }
 .spacer {
   flex: 1;
 }
 
 .navbar_navigation {
+  position: absolute;
   display: flex;
   height: 100%;
   align-items: center;
@@ -18,7 +20,7 @@
 }
 
 .navbar_logo {
-  margin-left: 1.5rem;
+  margin-left: 30px;
 }
 
 .navbar_navigation_item {
@@ -27,7 +29,7 @@
 
 .navbar_navigation_item ul {
   list-style: none;
-  margin: 0;
+  margin: 20px;
   padding: 0;
   display: flex;
   align-items: center;
@@ -47,4 +49,16 @@
 .navbar_navigation_item a:hover,
 .navbar_navigation_item a:active {
   color: #89cff0;
+}
+
+@media (max-width: 768px) {
+  .navbar_navigation_item {
+    display: none;
+  }
+}
+
+@media (min-width: 769px) {
+  .navbar_togglebutton {
+    display: none;
+  }
 }

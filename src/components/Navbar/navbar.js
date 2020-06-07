@@ -8,11 +8,15 @@ export class Navbar extends Component {
     return (
       <header className="navbar">
         <nav className="navbar_navigation">
-          <div>
+          <div className="navbar_togglebutton">
             <DrawerToggleButton click={this.props.drawerClickHandler} />
           </div>
-          <div className=".navbar_logo">
-            <img src={imagePath + "/Logo.png"} alt="Logo"></img>
+          <div>
+            <img
+              src={imagePath + "/Logo.png"}
+              alt="Logo"
+              className=".navbar_logo"
+            ></img>
           </div>
           <div className="spacer" />
           <div className="navbar_navigation_item">
