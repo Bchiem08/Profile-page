@@ -1,17 +1,19 @@
 import React, { Component } from "react";
+import "./homepage.css";
+import Grid from "@material-ui/core/Grid";
 
 export default class HomePage extends Component {
   render() {
-    const imagePath = process.env.PUBLIC_URL + "/photos/";
     return (
-      <div>
-        <img
-          src={imagePath + "/Background.png"}
-          alt="background"
-          className=".navbar_logo"
-          style={{ justifyContent: "center" }}
-        ></img>
-      </div>
+      <Grid container>
+        <div className="background">
+          <Grid item>
+            <p className="title">Brian Chiem</p>
+            <p className="subtitle">Front-end developer / Designer</p>
+            <p className="subtitle">Edmonton, AB</p>
+          </Grid>
+        </div>
+      </Grid>
     );
   }
 }
