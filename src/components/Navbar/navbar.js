@@ -6,7 +6,7 @@ import Hidden from "@material-ui/core/Hidden";
 
 export class Navbar extends Component {
   render() {
-    const imagePath = process.env.PUBLIC_URL + "/photos/";
+    const imagePath = process.env.PUBLIC_URL;
     return (
       <header className="navbar">
         <nav className="navbar_navigation">

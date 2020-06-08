@@ -1,13 +1,7 @@
 .title {
-  font-family: Montserrat;
-  font-style: normal;
-  font-weight: 600;
-  font-size: 100px;
-  display: flex;
-  align-items: center;
   text-align: center;
+  font-size: 100px;
 }
-
 .subtitle {
   font-family: Montserrat;
   font-style: normal;
