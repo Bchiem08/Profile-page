@@ -1,6 +1,5 @@
 .title {
   text-align: center;
-  font-size: 100px;
 }
 .subtitle {
   font-family: Montserrat;
@@ -18,7 +17,16 @@
 }
 
 .background {
-  background-image: url(../../photos/Background.png);
+  background-image: url(../../Background.png);
   width: 100%;
-  height: 1000px;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: top;
+}
+
+.textbox {
+  position: relative;
+  align-content: top;
+  bottom: 50vh;
 }

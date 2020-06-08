@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 
+import AboutMe from "./components/aboutme/aboutme";
 import HomePage from "./components/homepage/hompage";
 import SideDrawer from "./components/sidedrawer/sidedrawer";
 import Navbar from "./components/Navbar/navbar";
@@ -36,6 +37,7 @@ class App extends Component {
           <Grid container>
             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
               <HomePage />
+              {/* <AboutMe /> */}
             </Grid>
           </Grid>
         </main>

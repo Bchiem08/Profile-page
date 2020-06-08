@@ -12,25 +12,30 @@ const theme = createMuiTheme({
 });
 export default class HomePage extends Component {
   render() {
+    const imagePath = process.env.PUBLIC_URL + "";
     return (
       <ThemeProvider theme={theme}>
         <Grid container>
           <div className="background">
-            <Grid item style={{ marginTop: "15%" }}>
+            <Grid item style={{ height: "75vh" }}></Grid>
+            <div className="textbox">
               <Typography
-                className="title"
+                style={{
+                  textAlign: "center",
+                  fontWeight: 400,
+                  fontSize: "12vh",
+                }}
                 variant="h1"
-                style={{ fontWeight: 400 }}
               >
                 Brian Chiem
               </Typography>
-              <Typography style={{ textAlign: "center" }} variant="h5">
+              <Typography style={{ textAlign: "center", fontSize: "3.75vh" }}>
                 Front-end developer / Designer
               </Typography>
-              <Typography style={{ textAlign: "center" }} variant="h5">
+              <Typography style={{ textAlign: "center", fontSize: "3.75vh" }}>
                 Edmonton, AB
               </Typography>
-            </Grid>
+            </div>
           </div>
         </Grid>
       </ThemeProvider>
