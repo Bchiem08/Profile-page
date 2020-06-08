@@ -7,7 +7,7 @@ import { Typography } from "@material-ui/core";
 
 export default function InfoCard(props) {
   return (
-    <Card>
+    <Card style={{ border: "10px" }} className="infocard">
       <CardMedia image={props.image} />
       <CardContent>
         <Typography>{props.title}</Typography>

@@ -6,6 +6,7 @@ import SideDrawer from "./components/sidedrawer/sidedrawer";
 import Navbar from "./components/Navbar/navbar";
 import Backdrop from "./components/backdrop/backdrop";
 import Grid from "@material-ui/core/Grid";
+import SkillPage from "./components/skillpage/skillpage";
 
 class App extends Component {
   state = {
@@ -38,6 +39,7 @@ class App extends Component {
             <Grid item xs={12} sm={12} md={12} lg={12} xl={12}>
               <HomePage />
               <AboutMe />
+              <SkillPage />
             </Grid>
           </Grid>
         </main>
