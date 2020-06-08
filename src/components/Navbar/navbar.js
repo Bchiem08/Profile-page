@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./navbar.css";
 import DrawerToggleButton from "../sidedrawer/drawertogglebutton";
-import Grid from "@material-ui/core/Grid";
+
 import Hidden from "@material-ui/core/Hidden";
 
 export class Navbar extends Component {

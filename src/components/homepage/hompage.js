@@ -12,7 +12,6 @@ const theme = createMuiTheme({
 });
 export default class HomePage extends Component {
   render() {
-    const imagePath = process.env.PUBLIC_URL + "";
     return (
       <ThemeProvider theme={theme}>
         <Grid container>

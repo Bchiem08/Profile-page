@@ -1,8 +1,14 @@
 .image {
-  justify-content: right;
+  display: flex;
+  align-self: flex-end;
+  float: right;
+  width: 100%;
 }
-.line {
-  width: 5px;
-  height: 3px;
-  color: #89cff0;
+
+.body {
+  background: #f8f8f8;
+}
+
+.aboutbox {
+  margin-left: 30%;
 }

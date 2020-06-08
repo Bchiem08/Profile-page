@@ -1,0 +1,42 @@
+.line {
+  position: relative;
+  bottom: 30px;
+  width: 75px;
+  height: 10px;
+  background: #89cff0;
+}
+
+.aboutmeheader {
+  max-width: 328px;
+  height: 152px;
+  left: 0px;
+  top: 93px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 85px;
+  display: flex;
+  align-items: center;
+
+  color: #000000;
+}
+.aboutmeparagraph {
+  max-width: 590px;
+  left: 0px;
+  top: 287px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 28px;
+  line-height: 34px;
+
+  color: #000000;
+}
+
+.aboutmebox {
+  margin-left: 17%;
+  margin-top: 15%;
+}
