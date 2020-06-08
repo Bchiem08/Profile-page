@@ -29,3 +29,10 @@
   margin-right: 9%;
   margin-top: 5%;
 }
+.skillpageline {
+  position: relative;
+  bottom: 30px;
+  width: 75px;
+  height: 10px;
+  background: white;
+}
