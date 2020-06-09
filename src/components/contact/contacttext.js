@@ -3,6 +3,11 @@ import "./contact.css";
 
 export default class ContactText extends Component {
   render() {
-    return <div className="contactpage"></div>;
+    return (
+      <div className="contactpage">
+        <header></header>
+        <p></p>
+      </div>
+    );
   }
 }

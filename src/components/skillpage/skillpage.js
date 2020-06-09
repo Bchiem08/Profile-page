@@ -11,9 +11,7 @@ export default class SkillPage extends Component {
         <div className="skillspage">
           <SkillPageText />
           <Grid item style={{ height: "100vh" }}></Grid>
-          <div>
-            <InfoCard />
-          </div>
+          <div>{/* <InfoCard /> */}</div>
         </div>
       </Grid>
     );

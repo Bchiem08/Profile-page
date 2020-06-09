@@ -1,4 +1,5 @@
 import React, { Component } from "react";
+import Projects from "./components/projects/projects";
 
 import AboutMe from "./components/aboutme/aboutme";
 import HomePage from "./components/homepage/hompage";
@@ -40,6 +41,7 @@ class App extends Component {
               <HomePage />
               <AboutMe />
               <SkillPage />
+              <Projects />
             </Grid>
           </Grid>
         </main>
