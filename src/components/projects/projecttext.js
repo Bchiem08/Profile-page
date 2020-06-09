@@ -23,6 +23,7 @@ export default class ProjectText extends Component {
             Revere Youtube
           </a>
         </p>
+        <div style={{ height: "50px" }}></div>
       </div>
     );
   }
