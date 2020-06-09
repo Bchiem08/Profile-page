@@ -8,6 +8,7 @@ export default class SkillPageText extends Component {
         <div className="skillpageline"></div>
         <header className="skillsheader">Skills</header>
         <p className="skillstext">These are some of my current skills </p>
+        <div style={{ height: "20px" }}></div>
       </div>
     );
   }
