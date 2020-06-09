@@ -11,8 +11,12 @@ export default function InfoCard(props) {
     <Card style={{ border: "10px" }} className="root">
       <CardMedia className="media" image={props.image} />
       <CardContent>
-        <Typography className="title">{props.title}</Typography>
-        <Typography className="skill">{props.skill}</Typography>
+        <Typography variant="h3" className="title">
+          {props.title} Brian Chiem
+        </Typography>
+        <Typography variant="h5" className="skill">
+          {props.skill}
+        </Typography>
       </CardContent>
     </Card>
   );

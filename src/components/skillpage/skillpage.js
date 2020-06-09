@@ -5,6 +5,11 @@ import "./skillpage.css";
 import SkillPageText from "./skillpagetext";
 
 export default class SkillPage extends Component {
+  List = () => {
+    const data = this.props.cards;
+    console.log(this.List);
+  };
+
   render() {
     return (
       <Grid container>

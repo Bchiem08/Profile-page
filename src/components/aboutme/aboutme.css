@@ -1,6 +1,7 @@
 .image {
   display: flex;
   align-self: flex-end;
+  height: 100%;
   float: right;
   width: 100%;
 }
