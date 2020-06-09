@@ -12,7 +12,7 @@ export default function InfoCard(props) {
       <CardMedia className="media" image={props.image} />
       <CardContent>
         <Typography variant="h3" className="title">
-          {props.title} Brian Chiem
+          {props.title}
         </Typography>
         <Typography variant="h5" className="skill">
           {props.skill}
