@@ -4,6 +4,7 @@ import CardContent from "@material-ui/core/CardContent";
 import CardMedia from "@material-ui/core/CardMedia";
 import "./carddata";
 import { Typography } from "@material-ui/core";
+import "./infocard.css";
 
 export default function InfoCard(props) {
   return (
