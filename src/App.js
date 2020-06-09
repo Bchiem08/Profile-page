@@ -1,6 +1,7 @@
 import React, { Component } from "react";
 import Projects from "./components/projects/projects";
 
+import Contact from "./components/contact/contact";
 import AboutMe from "./components/aboutme/aboutme";
 import HomePage from "./components/homepage/hompage";
 import SideDrawer from "./components/sidedrawer/sidedrawer";
@@ -42,6 +43,7 @@ class App extends Component {
               <AboutMe />
               <SkillPage />
               <Projects />
+              <Contact />
             </Grid>
           </Grid>
         </main>

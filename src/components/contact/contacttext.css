@@ -1,0 +1,40 @@
+.contactpage {
+  margin-left: 18%;
+  margin-top: 10%;
+}
+.contactheader {
+  max-width: 328px;
+  height: 152px;
+  left: 0px;
+  top: 93px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 70px;
+  line-height: 85px;
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+}
+
+.contacttext {
+  max-width: 800px;
+  left: 0px;
+
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 3vh;
+  line-height: 1.5vh;
+
+  color: #ffffff;
+}
+.contactline {
+  position: relative;
+
+  width: 75px;
+  height: 10px;
+  background: #ffffff;
+}
