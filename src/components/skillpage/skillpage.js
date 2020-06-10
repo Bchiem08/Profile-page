@@ -14,7 +14,7 @@ export default class SkillPage extends Component {
         <div style={{ marginLeft: "10%", marginRight: "10%" }}>
           <CardGrid />
         </div>
-        <div style={{ height: "20px" }}></div>
+        <div style={{ height: "50px" }}></div>
       </div>
     );
   }
