@@ -14,9 +14,18 @@ export default function InfoCard(props) {
         <Typography variant="h3" className="title">
           {props.title}
         </Typography>
-        <Typography variant="h5" className="skill">
+        <Typography
+          variant="h5"
+          className="skill"
+          style={{ marginLeft: "32%", marginTop: "3%" }}
+        >
           {props.skill}
         </Typography>
+        <CardMedia
+          className="stars"
+          image={props.stars}
+          style={{ height: "30px", width: "150px" }}
+        />
       </CardContent>
     </Card>
   );

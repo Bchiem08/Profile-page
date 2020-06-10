@@ -10,36 +10,43 @@ const cards = [
     image: imagePath + "/htmllogo.png",
     title: "Html",
     skill: "skill level:",
+    stars: imagePath + "/5stars.png",
   },
   {
-    image: imagePath + "/htmllogo.png",
+    image: imagePath + "/CssFrame.png",
     title: "CSS",
     skill: "skill level:",
+    stars: imagePath + "/5stars.png",
   },
   {
-    image: imagePath + "/htmllogo.png",
+    image: imagePath + "/JsFrame.png",
     title: "JavaScript",
     skill: "skill level:",
+    stars: imagePath + "/4stars.png",
   },
   {
-    image: imagePath + "/htmllogo.png",
+    image: imagePath + "/Githubframe.png",
     title: "Git",
     skill: "skill level:",
+    stars: imagePath + "/4stars.png",
   },
   {
-    image: imagePath + "/htmllogo.png",
+    image: imagePath + "/FigmaFrame.png",
     title: "Figma",
     skill: "skill level:",
+    stars: imagePath + "/4stars.png",
   },
   {
-    image: imagePath + "/htmllogo.png",
+    image: imagePath + "/FilmoraFrame.png",
     title: "Filmora",
     skill: "skill level:",
+    stars: imagePath + "/4stars.png",
   },
   {
-    image: imagePath + "/htmllogo.png",
+    image: imagePath + "/ReactFrame.png",
     title: "React",
     skill: "skill level:",
+    stars: imagePath + "/3stars.png",
   },
 ];
 
@@ -61,6 +68,7 @@ export default class CardGrid extends Component {
                 image={cards.image}
                 title={cards.title}
                 skill={cards.skill}
+                stars={cards.stars}
               />
             </Grid>
           ))}
