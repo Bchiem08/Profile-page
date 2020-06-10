@@ -23,6 +23,7 @@ export default class HomePage extends Component {
                   textAlign: "center",
                   fontWeight: 400,
                   fontSize: "12vh",
+                  textDecoration: "none",
                 }}
                 variant="h1"
               >

@@ -1,7 +1,6 @@
 import React, { Component } from "react";
 import "./navbar.css";
 import DrawerToggleButton from "../sidedrawer/drawertogglebutton";
-
 import Hidden from "@material-ui/core/Hidden";
 
 export class Navbar extends Component {
@@ -28,19 +27,19 @@ export class Navbar extends Component {
             <div className="navbar_navigation_item">
               <ul>
                 <li>
-                  <a href="/">Home</a>
+                  <a href="#home">Home</a>
                 </li>
                 <li>
-                  <a href="/">About Me</a>
+                  <a href="#aboutme">About Me</a>
                 </li>
                 <li>
-                  <a href="/">Skills</a>
+                  <a href="#skills">Skills</a>
                 </li>
                 <li>
-                  <a href="/">Projects</a>
+                  <a href="#projects">Projects</a>
                 </li>
                 <li>
-                  <a href="/">Contact</a>
+                  <a href="#contact">Contact</a>
                 </li>
               </ul>
             </div>

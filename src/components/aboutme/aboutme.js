@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "./aboutme.css";
 import Grid from "@material-ui/core/Grid";
-import Typography from "@material-ui/core/Typography";
+
 import AboutMeText from "./aboutmetext";
 
 export default class AboutMe extends Component {
