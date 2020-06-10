@@ -16,7 +16,7 @@ export class Navbar extends Component {
           </Hidden>
           <div>
             <img
-              src={imagePath + "/brianlogo.png"}
+              src={imagePath + "/bchiemlogo.png"}
               alt="Logo"
               className=".navbar_logo"
               style={{ justifyContent: "center" }}
