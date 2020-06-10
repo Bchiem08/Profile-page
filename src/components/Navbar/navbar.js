@@ -5,7 +5,7 @@ import Hidden from "@material-ui/core/Hidden";
 
 export class Navbar extends Component {
   render() {
-    const imagePath = process.env.PUBLIC_URL;
+    const imagePath = process.env.PUBLIC_URL + "/photos";
     return (
       <header className="navbar">
         <nav className="navbar_navigation">
@@ -16,7 +16,7 @@ export class Navbar extends Component {
           </Hidden>
           <div>
             <img
-              src={imagePath + "/Logo.png"}
+              src={imagePath + "/brianlogo.png"}
               alt="Logo"
               className=".navbar_logo"
               style={{ justifyContent: "center" }}
