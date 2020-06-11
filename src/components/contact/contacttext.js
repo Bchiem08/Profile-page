@@ -14,7 +14,14 @@ export default class ContactText extends Component {
           <br />
           <p className="contacttext">Cell: (780)-707-8248</p>
           <p className="contacttext">
-            Email:<a href> {""}bchiem08@gmail.com</a>
+            Email:
+            <a
+              href="mailto:bchiem08@gmail.com"
+              style={{ textDecoration: "none" }}
+            >
+              {" "}
+              {""}bchiem08@gmail.com
+            </a>
           </p>
         </div>
       </div>
