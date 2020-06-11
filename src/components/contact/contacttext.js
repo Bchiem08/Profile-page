@@ -23,6 +23,24 @@ export default class ContactText extends Component {
               {""}bchiem08@gmail.com
             </a>
           </p>
+          <p className="contacttext">
+            github:{" "}
+            <a
+              href="https://github.com/Bchiem08"
+              style={{ textDecoration: "none" }}
+            >
+              Bchiem08
+            </a>
+          </p>
+          <p className="contacttext">
+            Linkedin
+            <a
+              href="https://www.linkedin.com/in/brian-chiem-1ab94517a/"
+              style={{ textDecoration: "none" }}
+            >
+              bchiemlinkedin
+            </a>
+          </p>
         </div>
       </div>
     );
