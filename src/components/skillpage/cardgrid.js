@@ -53,27 +53,26 @@ const cards = [
 export default class CardGrid extends Component {
   render() {
     return (
-      <div>
-        <Grid container spacing={10}>
-          {cards.map((cards, index) => (
-            <Grid xs={12} sm={6} md={4} lg={4} xl={3} className="cardgrid">
-              <InfoCard
-                style={{
-                  marginLeft: 200,
-                  marginRight: 200,
-                  margin: 50,
-                  marginBottom: 20,
-                }}
-                key={"card" + index}
-                image={cards.image}
-                title={cards.title}
-                skill={cards.skill}
-                stars={cards.stars}
-              />
-            </Grid>
-          ))}
-        </Grid>
-      </div>
+      <Grid
+        container
+        spacing={10}
+        style={{
+          marginLeft: "14%",
+          marginRight: "14%",
+        }}
+      >
+        {cards.map((cards, index) => (
+          <Grid xs={12} sm={6} md={4} lg={4} xl={3} className="cardgrid">
+            <InfoCard
+              key={"card" + index}
+              image={cards.image}
+              title={cards.title}
+              skill={cards.skill}
+              stars={cards.stars}
+            />
+          </Grid>
+        ))}
+      </Grid>
     );
   }
 }
